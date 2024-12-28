@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "url-cleaner"
+version = "0.1.0"
+description = "A service to clean up expired URLs"
+authors = ["Hazel Lin <hazel.ys.lin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlmodel = "^0.0.14"
+psycopg2-binary = "^2.9.9"
+asyncpg = "^0.29.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
